@@ -1,11 +1,12 @@
 package Task_4;
 
-import Task_4.UniqueName.StudentsWithTeacher;
+
+import Task_4.UniqueName.UniqueName;
 
 public class ApplicationRunner {
     public static void main(String[] args) {
 
-        StudentsWithTeacher.UniqueNames uniqueNames = new StudentsWithTeacher.UniqueNames();
+        UniqueName.UniqueNames uniqueNames = new UniqueName.UniqueNames();
         uniqueNames.addName("Bogdan");
         uniqueNames.addName("Kate");
         uniqueNames.addName("Oleg");
